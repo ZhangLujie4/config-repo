@@ -3,8 +3,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8086/eureka/
 spring:
-  application:
-    name: order
   datasource:
     username: root
     driver-class-name: com.mysql.jdbc.Driver
