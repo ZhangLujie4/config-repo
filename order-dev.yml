@@ -11,5 +11,5 @@ spring:
 env: 
   dev-4
 girl:
-  name: lili-zhou
-  age: 20
+  name: lili
+  age: 18
