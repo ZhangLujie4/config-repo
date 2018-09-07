@@ -10,3 +10,6 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springcloud?useSSL=false&characterEncoding=utf-8
 env: 
   dev-4
+girl:
+  name: lili
+  age: 18
