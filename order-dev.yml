@@ -1,13 +1,14 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka/
 spring:
   datasource:
     username: root
     driver-class-name: com.mysql.jdbc.Driver
     password: zhanglujie
     url: jdbc:mysql://127.0.0.1:3306/springcloud?useSSL=false&characterEncoding=utf-8
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest  
 env: 
   dev-4
 girl:
