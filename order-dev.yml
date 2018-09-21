@@ -12,8 +12,7 @@ spring:
   redis:
     host: localhost
     port: 6379
-env: 
-  dev-4
+env: dev-4
 girl:
   name: lili-66
   age: 66
